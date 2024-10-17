@@ -8,3 +8,7 @@
     background-color: hsl(0, 0%, 0%);
     color: rgb(255, 255, 255);
 }
+
+.box-2 {
+    background-color: hwb(60 0% 0%);
+}
