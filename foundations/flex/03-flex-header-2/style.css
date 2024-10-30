@@ -50,4 +50,13 @@ a {
 ul {
   list-style-type: none;
   display: flex;
+  margin-right: auto;
+}
+
+.right {
+  display: flex;
+}
+
+.left {
+  display: flex;
 }
