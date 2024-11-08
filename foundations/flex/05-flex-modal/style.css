@@ -80,8 +80,3 @@ button.cancel {
   border: solid red;
 }
 
-.container {
-  flex: 1;
-  margin: 20px;
-  border: solid red;
-}
