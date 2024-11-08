@@ -22,7 +22,7 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
   padding: 20px;
   display: flex;
-  border: solid red;
+  border: solid palevioletred;
 }
 
 .icon {
@@ -76,10 +76,11 @@ button.cancel {
   font-size: large;
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
+  border: solid red;
 }
 
-.test {
+.container {
   flex: 1;
   margin: 20px;
+  border: solid red;
 }
