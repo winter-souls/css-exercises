@@ -23,7 +23,6 @@ body {
   display: flex;
   gap: 16px;
   padding: 16px;
-  border: solid red;
 }
 
 .icon {
@@ -75,10 +74,9 @@ button.cancel {
 
 .header {
   font-weight: bold;
-  font-size: large;
+  font-size: 20px;
   display: flex;
   justify-content: space-between;
-  border: solid red;
 }
 
 .text {
