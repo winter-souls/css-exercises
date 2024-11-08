@@ -22,7 +22,7 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
   padding: 20px;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
 }
 
 .icon {
@@ -72,5 +72,5 @@ button.cancel {
 }
 
 .test {
-  
+  flex-shrink: 100
 }
