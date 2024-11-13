@@ -27,8 +27,24 @@ input {
 
 a {
   text-decoration: none;
+  margin: 10px;
+  color: black;
 }
 
 ul {
   list-style: none;
 }
+
+.header,
+.footer {
+  display:flex;
+  justify-content: space-between;
+}
+
+.left-links,
+.right-links {
+  display: flex;
+  justify-content: flex-start;
+}
+
+
