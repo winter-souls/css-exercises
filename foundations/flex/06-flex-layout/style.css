@@ -7,6 +7,9 @@ body {
   font-family: Roboto, sans-serif;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  /*justify-content, here, effects the vertical alignment of the children of body
+  (.header, .footer, etc.). space-between is what makes the footer sit nicely on the bottom!*/
 }
 
 img {
@@ -47,6 +50,7 @@ ul {
 .right-links {
   display: flex;
   justify-content: flex-start;
+  padding: 0px;
 }
 
 .content {
@@ -54,5 +58,10 @@ ul {
   flex-direction: column;
   align-items: center;
 }
+
+.footer {
+  justify-self: flex-end;
+}
+
 
 
