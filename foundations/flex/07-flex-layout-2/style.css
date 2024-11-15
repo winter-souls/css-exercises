@@ -43,3 +43,11 @@ body {
   flex:1;
   display: flex;
 }
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
