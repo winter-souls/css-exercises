@@ -11,6 +11,14 @@ body {
   height: 72px;
   background: darkmagenta;
   color: white;
+  display: flex;
+  align-items: center;
+  font-weight: 1000;
+  font-size: 24px;
+}
+
+.header > p {
+  margin-left: 20px;
 }
 
 .footer {
