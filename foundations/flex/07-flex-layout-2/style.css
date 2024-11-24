@@ -46,6 +46,7 @@ body {
 
 .sidebar {
   display: flex;
+  min-width: 300px;
 }
 
 a {
@@ -61,6 +62,5 @@ li {
 ul {
   list-style-type: none;
   padding: 15px;
-  
 }
 
