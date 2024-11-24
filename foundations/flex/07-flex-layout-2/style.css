@@ -37,12 +37,17 @@ body {
   display: flex;
   flex-wrap: wrap;
   padding: 48px;
+  justify-content: center;
 }
 
 .card {
+  flex: 1;
+  min-width: 200px;
+  min-height: 300px;
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  margin: 15px;
 }
 
 .content {
