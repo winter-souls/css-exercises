@@ -33,6 +33,12 @@ body {
   box-sizing: border-box;
 }
 
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 48px;
+}
+
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
