@@ -37,7 +37,6 @@ body {
   display: flex;
   flex-wrap: wrap;
   padding: 48px;
-  justify-content: center;
 }
 
 .card {
@@ -73,5 +72,11 @@ li {
 ul {
   list-style-type: none;
   padding: 15px;
+}
+
+.footer {
+  display:flex;
+  justify-content: center;
+  align-items: center;
 }
 
